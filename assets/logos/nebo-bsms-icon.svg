@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" role="img" aria-label="NEBO BSMS">
+  <title>NEBO BSMS</title>
+  <defs>
+    <linearGradient id="bsms-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A5B"/><stop offset="1" stop-color="#E0402A"/>
+    </linearGradient>
+    <linearGradient id="bsms-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="bsms-arc"><rect width="120" height="120" fill="#fff"/><circle cx="60" cy="30" r="9" fill="#000"/></mask>
+  </defs>
+  <rect width="120" height="120" rx="27" fill="url(#bsms-bg)"/>
+  <rect width="120" height="120" rx="27" fill="url(#bsms-sheen)"/>
+  <path d="M27 43 Q60 17 93 43" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" mask="url(#bsms-arc)"/>
+  <path d="M60 22.5 C61.2 28.8 61.2 28.8 67.5 30 C61.2 31.2 61.2 31.2 60 37.5 C58.8 31.2 58.8 31.2 52.5 30 C58.8 28.8 58.8 28.8 60 22.5Z" fill="#fff"/>
+  <path d="M45 52 L72 84" stroke="#fff" stroke-width="6" stroke-linecap="round"/><path d="M75 52 L48 84" stroke="#fff" stroke-width="6" stroke-linecap="round"/><circle cx="44" cy="91" r="8" stroke="#fff" stroke-width="5" fill="none"/><circle cx="76" cy="91" r="8" stroke="#fff" stroke-width="5" fill="none"/><circle cx="60" cy="69.5" r="3" fill="#E0402A"/>
+</svg>

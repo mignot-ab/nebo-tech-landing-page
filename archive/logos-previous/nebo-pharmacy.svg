@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="pharmGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE7B7" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="pharmMint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A7F3D0" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="pharmDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1F17" />
+      <stop offset="100%" stop-color="#07110C" />
+    </linearGradient>
+    <filter id="pharmGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#10B981" flood-opacity="0.32" />
+    </filter>
+  </defs>
+
+  <!-- Logo Mark -->
+  <g transform="translate(20, 20)" filter="url(#pharmGlow)">
+    <rect x="0" y="0" width="80" height="80" rx="20" fill="url(#pharmDark)" stroke="rgba(110, 231, 183, 0.3)" stroke-width="1.5" />
+    
+    <!-- Pharmacy Precision Cross with Integrated Smart Capsule -->
+    <path d="M34 22 H46 V34 H58 V46 H46 V58 H34 V46 H22 V34 H34 Z" fill="url(#pharmGreen)" opacity="0.25" />
+    <!-- Dynamic Capsule Angle -->
+    <g transform="translate(40,40) rotate(-45)">
+      <!-- Top Half of Capsule -->
+      <path d="M-10 -22 C-10 -27 -6 -31 0 -31 C6 -31 10 -27 10 -22 V-6 H-10 Z" fill="url(#pharmGreen)" />
+      <!-- Bottom Half of Capsule -->
+      <path d="M-10 -6 H10 V10 C10 15 6 19 0 19 C-6 19 -10 15 -10 10 Z" fill="#FFFFFF" opacity="0.9" />
+      <!-- Central Separation Line -->
+      <line x1="-10" y1="-6" x2="10" y2="-6" stroke="#047857" stroke-width="1.5" />
+    </g>
+    <!-- Digital Pulse Dot -->
+    <circle cx="58" cy="24" r="3" fill="#6EE7B7" />
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(122, 26)">
+    <g transform="translate(0, 0)">
+      <text x="0" y="38" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="-0.03em" fill="#FFFFFF">
+        NEBO
+      </text>
+      <!-- PHARMACY Pill Tag -->
+      <rect x="110" y="10" width="124" height="30" rx="8" fill="rgba(16, 185, 129, 0.16)" stroke="url(#pharmGreen)" stroke-width="1.2" />
+      <text x="172" y="31" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif" font-size="15" font-weight="800" letter-spacing="0.1em" fill="#6EE7B7" text-anchor="middle">
+        PHARMACY
+      </text>
+    </g>
+    <text x="1" y="62" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', monospace" font-size="11" font-weight="600" letter-spacing="0.19em" fill="#A1A1AA">
+      DISPENSARY &amp; PHARMACEUTICAL ERP
+    </text>
+  </g>
+</svg>

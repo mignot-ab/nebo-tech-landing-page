@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none" role="img" aria-label="Nebo Tech">
+  <title>Nebo Tech</title>
+  <rect width="120" height="120" rx="27" fill="#0A1633"/><defs><mask id="nm-arc"><rect width="120" height="120" fill="#fff"/><circle cx="60" cy="34" r="10" fill="#000"/></mask></defs><path d="M24 50 Q60 18 96 50" stroke="#1F6BFF" stroke-width="3.5" stroke-linecap="round" mask="url(#nm-arc)"/><path d="M60 25.5 C61.36 32.64 61.36 32.64 68.5 34 C61.36 35.36 61.36 35.36 60 42.5 C58.64 35.36 58.64 35.36 51.5 34 C58.64 32.64 58.64 32.64 60 25.5Z" fill="#1F6BFF"/><rect x="36" y="58" width="48" height="9" rx="2" fill="#fff"/><rect x="36" y="74" width="46" height="9" rx="2" fill="#1F6BFF"/><rect x="36" y="90" width="48" height="9" rx="2" fill="#fff"/>
+</svg>
